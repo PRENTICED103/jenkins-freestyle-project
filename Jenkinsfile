@@ -7,8 +7,8 @@ pipeline {
         stage('Build') {
 
             steps {
-                sh 'echo "building..."
-                sh 'is -al
+                sh 'echo "building..."'
+                sh 'is -al'
                
             }
 
@@ -17,8 +17,8 @@ pipeline {
         stage('Test') {
 
             steps {sh 'echo "Testing..."'
-            sh 'pwd
-            sh 'touch testfile.txt
+            sh 'pwd'
+            sh 'touch testfile.txt'
             sh 'ls -l'
 
 
