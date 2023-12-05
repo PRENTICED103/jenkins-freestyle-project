@@ -8,7 +8,7 @@ pipeline {
 
             steps {
                 sh 'echo "building..."'
-                sh 'is -al'
+                sh 'ls -al'
                
             }
 
