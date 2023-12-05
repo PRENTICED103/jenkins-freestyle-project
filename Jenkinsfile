@@ -29,7 +29,7 @@ pipeline {
         stage('Deploy') {
 
             steps {
-                sh 'cat ./deploy.sh'
+                sh 'cat ./run.sh'
                 sh 'echo "Deploying..."'
                 sh 'mv testfile.txt/tmp'
                 sh 'ls -l/tmp'
