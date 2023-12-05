@@ -31,8 +31,8 @@ pipeline {
             steps {
                 sh 'cat ./run.sh'
                 sh 'echo "Deploying..."'
-                sh 'mv testfile.txt/tmp'
-                sh 'ls -l/tmp'
+                sh 'mv testfile.txt /tmp'
+                sh 'ls -l /tmp'
 
             }
 
